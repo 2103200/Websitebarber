@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/daftar.css">
+    <title>Form Antrian</title>
+</head>
+<body>
+    <h1>Formulir Antrian</h1>
+    <form action="index.php" method="post">
+        <label for="nama_">Nama:</label>
+        <input type="text" id="nama_" name="nama" required><br><br>
+
+        <label for="no_Telp">No. Telepon:</label>
+        <input type="tel" id="no_Telp" name="noTelp" required><br><br>
+
+        <div class="inputBox">
+            <label for="keperluan">Hair Artist:</label>
+            <select name="keperluan" class="box" required>
+               <option value="Alan Turing">Alan Turing</option>
+               <option value="Alax Laurie">Alax Laurie</option>
+               <option value="Tom Johnson">Tom Johnson</option>
+               <option value="Muri Dane">Muri Dane</option>
+               <option value="Scarlett Blue">Scarlett Blue</option>
+            </select>
+         </div>
+         <br><br>
+
+         <label for="tanggal">Tanggal pemesanan :</label>
+         <input type="date" id="tanggal" name="tanggal" required><br><br>
+
+        <button type="submit">Daftar</button>
+    </form>
+</body>
+</html>
